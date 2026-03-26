@@ -9,8 +9,11 @@ next.user-config.*
 
 # Environment variables
 .env*.local
-
+__pycache__/
+*.pyc
 # Common ignores
-node_modules
+node_modules/
 .next/
+dist/
+build/
 .DS_Store
