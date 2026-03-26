@@ -1,0 +1,27 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+
+# Auth
+bcrypt==4.2.0
+python-jose[cryptography]==3.3.0
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0          # async PostgreSQL driver
+psycopg2-binary==2.9.10  # sync driver (keep for Alembic + sync routes)
+alembic==1.14.0
+
+# AI / ML
+numpy==1.26.4
+scikit-learn==1.5.2
+torch==2.4.1             # CPU-only: torch==2.4.1+cpu
+transformers==4.45.2
+accelerate==1.0.1
+
+# Validation
+pydantic[email]==2.9.2
+
+# Utilities
+python-dotenv==1.0.1
